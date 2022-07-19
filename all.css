@@ -112,7 +112,7 @@ h1 {
 }
 
 .header {
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+    background-image: url(image/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -188,9 +188,7 @@ h1 {
     font-size: 1.375em;
     font-weight: bold;
 }
-.about .list h3{
-    padding-left: 16px;
-}
+
 .brand{
     text-align: center;
     background-color: black;
