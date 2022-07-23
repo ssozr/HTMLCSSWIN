@@ -110,6 +110,9 @@ h1 {
 .mb-16{
     margin-bottom: 16px;
 }
+.mb-56{
+    margin-bottom: 56px;
+}
 
 .header {
     background-image: url(image/banner.png);
@@ -120,11 +123,10 @@ h1 {
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    height: 958px;
 }
 
 .header .title {
-    padding-top: 308px;
-    padding-bottom: 308px;
     color: white;
     width: 308px;
 }
@@ -174,7 +176,6 @@ h1 {
 .about .list ul{
     border-top: 1px solid #000;
     padding-top: 28px;
-    list-style-type: disc;
     display: flex;
     width: 342px;
     justify-content: center;
@@ -183,12 +184,19 @@ h1 {
 .about .list li{
     padding-bottom: 28px;
 }
-.about .list li::marker{
-    color: #891818;
-    font-size: 1.375em;
-    font-weight: bold;
+.dot{
+    display: flex;
+    align-items: center;
 }
+.about .list .dot::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 100px;
+    margin-right: 16px;
 
+}
 .brand{
     text-align: center;
     background-color: black;
